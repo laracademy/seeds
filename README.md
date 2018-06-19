@@ -7,7 +7,7 @@
 The easiest way to get started is to install the package using `composer`. You can do so by running the following command.
 
 ```bash
-composer required laracademy/seeds
+composer require laracademy/seeds
 ```
 
 That's it! Well, as long as you are using `Laravel 5.5 or higher`. If you are using an older version of Laravel please see below.
