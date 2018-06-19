@@ -1,6 +1,6 @@
 # Seeds for Laravel by Laracademy
 
-![Latest Stable Version](https://poser.pugx.org/laracademy/seeds/v/stable)](https://packagist.org/packages/laracademy/seeds)  [![Total Downloads](https://poser.pugx.org/laracademy/seeds/downloads)](https://packagist.org/packages/laracademy/seeds) [![Latest Unstable Version](https://poser.pugx.org/laracademy/seeds/v/unstable)](https://packagist.org/packages/laracademy/seeds) [![License](https://poser.pugx.org/laracademy/seeds/license)](https://packagist.org/packages/laracademy/seeds)
+![Latest Stable Version](https://poser.pugx.org/laracademy/seeds/v/stable)  [![Total Downloads](https://poser.pugx.org/laracademy/seeds/downloads)](https://packagist.org/packages/laracademy/seeds) [![Latest Unstable Version](https://poser.pugx.org/laracademy/seeds/v/unstable)](https://packagist.org/packages/laracademy/seeds) [![License](https://poser.pugx.org/laracademy/seeds/license)](https://packagist.org/packages/laracademy/seeds)
 
 ## Getting Started
 
