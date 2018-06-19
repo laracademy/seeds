@@ -1,0 +1,25 @@
+{
+    "name": "laracademy/seeds",
+    "description": "This package helps with database seeding.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael McMullen",
+            "email": "michael.mcmullen@laracademy.co"
+        }
+    ],
+    "require": {},
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+          "Laracademy\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laracademy\\Commands\\SeedsServiceProvider"
+            ]
+        }
+    }
+}
