@@ -36,16 +36,17 @@ class SeedsCommand extends Command
      */
     public function handle()
     {
+        dd('b');
         $willExit = false;
         $path = database_path('seeds');
         // read all database seeders, removing the original database seeder
-        $files = collect(glob("{$path}\*.php"))->reject(function($record) {
-            $filename = collect(explode("\\", $record))->last();
+        $files = collect(glob("{$path}/*.php"))->reject(function($record) {
+            $filename = collect(explode("/", $record))->last();
             return $filename == 'DatabaseSeeder.php';
         });
         // clean up path
         $files = $files->map(function($record) use($path) {
-            return str_replace("{$path}\\", '', $record);
+            return str_replace("{$path}/", '', $record);
         });
         // add exit
         $files = $files->prepend('Exit');
@@ -67,7 +68,7 @@ class SeedsCommand extends Command
                     return $value != $answer;
                 })->keys()->first();
                 // grab the class name
-                $class = collect($this->file_get_php_classes("{$path}\\{$file}"))->first();
+                $class = collect($this->file_get_php_classes("{$path}/{$file}"))->first();
                 $this->info('Running: '. $class);
                 sleep(1);
                 $this->call('db:seed', [
