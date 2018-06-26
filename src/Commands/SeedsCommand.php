@@ -36,7 +36,6 @@ class SeedsCommand extends Command
      */
     public function handle()
     {
-        dd('b');
         $willExit = false;
         $path = database_path('seeds');
         // read all database seeders, removing the original database seeder
