@@ -2,6 +2,8 @@
 
 ![Latest Stable Version](https://poser.pugx.org/laracademy/seeds/v/stable)  [![Total Downloads](https://poser.pugx.org/laracademy/seeds/downloads)](https://packagist.org/packages/laracademy/seeds) [![Latest Unstable Version](https://poser.pugx.org/laracademy/seeds/v/unstable)](https://packagist.org/packages/laracademy/seeds) [![License](https://poser.pugx.org/laracademy/seeds/license)](https://packagist.org/packages/laracademy/seeds)
 
+This package adds a new `artisan` command which offers a better way to seed your database: You can select the seeder from a selection and during running you will get feedback on what is being done.
+
 ## Getting Started
 
 The easiest way to get started is to install the package using `composer`. You can do so by running the following command.
